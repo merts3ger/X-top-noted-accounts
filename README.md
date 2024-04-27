@@ -1,5 +1,6 @@
 # X-top-noted-accounts
-In this project, I conduct an analysis of X (Twitter) accounts that are most frequently flagged by Community Notes, a feature on X allowing the community to add context to and highlight incorrect information in tweets they believe are misleading.     
+In this project, I conduct an analysis of X (Twitter) accounts that are most frequently flagged by Community Notes, a feature on X allowing the community to add context to and highlight incorrect information in tweets they believe are misleading.        
+Given that these days social media play a big role in information warfare, it's important to keep exploring the problem of misinformation spread to effectively counteract its influence on public opinion.    
     
 * Data collection involved web scraping and API requests: I used **Selenium** to get the current top "noted" accounts from the [leaderboards](https://community-notes-leaderboard.com/), capturing usernames, URLs, and note counts. Detailed user information and tweet metrics were retrieved using the **Tweepy** library via the Twitter API.     
 * Next I looked into *user engagement* with these accounts, focusing on average retweets, likes, and follower counts.      
